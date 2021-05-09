@@ -3,7 +3,7 @@ An introductory project for trying out angular by creating a simple to-do list a
 
 💛 Hosted on Github Pages: https://yuelchen.github.io/angular-todo-list/
 ## Preview:
-![ToDo List Preview]()
+![ToDo List Preview](https://github.com/yuelchen/angular-todo-list/blob/main/src/preview.png)
 
 ---
 ## Command Line Reference
