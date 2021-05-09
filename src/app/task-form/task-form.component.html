@@ -1,0 +1,27 @@
+<form #taskForm="ngForm">
+	<table>
+		<tr>
+			<td id="formDataCell">
+				<input
+					type="text"
+					class="form-control"
+					name="name"
+					id="name"
+					placeholder="New Task Name"
+					required
+					[(ngModel)]="task.name" />
+			</td>
+			<td id="formDataCell">
+				<input
+					type="text"
+					name="desc"
+					id="desc"
+					placeholder="New Task Description (Optional)" 
+					[(ngModel)]="task.desc" />
+			</td>
+			<td id="formDataCell">
+				<button (click)="addNewTask()">Add TODO List</button>
+			</td>
+		</tr>
+	</table>
+</form>
